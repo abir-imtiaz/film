@@ -18,7 +18,3 @@
 Route::get('/', 'PagesController@index');
 
 Route::get('/films', 'PagesController@films');
-
-Route::get('/films/{slug}', function ($slug) {
-    return 'This is film page, to be directed to detail view page, with this '.$slug.' slug';
-});
