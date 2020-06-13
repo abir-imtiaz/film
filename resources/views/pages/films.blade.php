@@ -2,6 +2,11 @@
 @section('content')
     <div class='jumbotron text-center'>
         <h1>{{$title}}</h1>
-        <h3>This is the List of Movies</h3>
+        <div id="app">
+            <div class="container">
+                <Films></Films>
+            </div>
+        </div>
     </div>
+    <script  src="{{asset('js/app.js')}}"></script>
 @endsection
